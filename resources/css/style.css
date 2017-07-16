@@ -1,0 +1,46 @@
+/* UNIVERSAL STYLES */
+html,
+body {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-default .navbar-nav {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	background-color: rgb(248, 248, 248);
+	color: #399bd1;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+	background-color: rgb(248, 248, 248);
+	color: #399bd1;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+	background: url("../images/jumbotron-bike.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+
+.jumbo-content {
+	padding: 11.85rem 0;
+	color: #fff;
+}
+
+.jumbo-content h1 {
+	font-family: 'Monoton', sans-serif;
+	font-size: 7.1rem;
+	text-shadow: -1px -1px #000, 1px -1px #000, -1px 1px #000, 1px -px #000;
+}
+
+.jumbo-content p {
+	width: 51.3rem;
+	margin: 0 auto;
+}
+
