@@ -21,6 +21,12 @@ body {
 	color: #399bd1;
 }
 
+@media only screen and (max-width: 470px) {
+	.navbar-default img {
+		display: none;
+	}
+}
+
 /* JUMBOTRON */
 .jumbotron {
 	background: url("../images/jumbotron-bike.jpg") no-repeat center center;
@@ -36,12 +42,14 @@ body {
 .jumbo-content h1 {
 	font-family: 'Monoton', sans-serif;
 	font-size: 7.1rem;
-	text-shadow: -1px -1px #000, 1px -1px #000, -1px 1px #000, 1px -px #000;
+	text-shadow: -1px -1px #000, 1px -1px #000, -1px 1px #000, 1px 1px #000;
 }
 
 .jumbo-content p {
 	width: 51.3rem;
 	margin: 0 auto;
+	text-shadow: -1px -1px #000, 1px -1px #000, -1px 1px #000, 1px 1px #000;
+
 }
 
 .jumbo-content .btn {
@@ -51,14 +59,27 @@ body {
 	background-color: #399bd1;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 	border: transparent;
+	text-shadow: none;
 }
 
 .jumbo-content .btn:hover {
 	box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+	text-shadow: none;
 }
 
 .jumbo-content .btn:active {
 	box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+	text-shadow: none;
+}
+
+@media only screen and (max-width: 470px) {
+	.jumbo-content h1 {
+		font-size: 5.7rem;
+	}
+	
+	.jumbo-content p {
+		width: 100%;
+	}
 }
 
 /* FEATURED */
@@ -115,6 +136,12 @@ body {
 	margin-bottom: 5.85rem;
 }
 
+@media only screen and (max-width: 470px) {
+	.project {
+		margin-bottom: 5.85rem;
+	}
+}
+
 /* FOOTER */
 .footer {
 	background-color: #f3f3f3;
@@ -152,6 +179,12 @@ body {
 
 .footer-content .btn:active {
 	box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 470px) {
+	.footer p {
+		width: 100%;
+	}
 }
 
 
